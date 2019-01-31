@@ -1,0 +1,86 @@
+header {
+    margin: 10px auto;
+    background-color: #fff;
+ text-align: center;
+ border: 1px solid #bbb;
+}
+
+header img, .headings {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+body {
+
+ font-family: sans-serif;
+}
+
+.menu {
+ margin: 10px auto;
+ text-align: center;
+ vertical-align: middle;
+ border: 1px solid #bbb;
+ align-items: center;
+ justify-content: center;
+}
+
+.townName {
+
+ text-align: center;
+ 
+}
+
+.summary {
+
+ 
+ border: 1px solid #bbb; 
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("C:/Users/jagg9/BYU-Idaho/OneDrive - BYU-Idaho/CIT 230/jagg509.github.io/cit230/lesson-4/images/Preston.jpg");
+ background-size: cover;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ color: whitesmoke;
+
+ 
+}
+
+div.summary {
+
+ width: auto;
+}
+
+.contact{
+
+ margin: 10px auto;
+ border: 1px solid #bbb;
+}
+
+.contact img {
+
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 75%;
+
+}
+
+.article {
+
+ border: 1px solid #bbb;
+ margin: 10px auto;
+}
+
+.article img {
+
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 75%;
+ 
+
+footer {
+
+ border: 1px solid #bbb;
+ margin: 10px auto;
+}
