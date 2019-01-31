@@ -2,7 +2,6 @@ header {
     font-family: 'Muli', sans-serif;
     margin: 10px auto;
     background-color: #fff;
-    border: 1px solid #bbb;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -21,13 +20,25 @@ header img, .headings {
 
 body {
 
- font-family: sans-serif;
+ font-family: Arial, Helvetica, sans-serif
 }
 
 .menu {
+
  margin: 10px auto;
- border: 1px solid #bbb;
  text-align: center;
+ 
+}
+
+.menu a {
+
+    text-decoration: none;
+    color: slategray;
+}
+
+.menu li:hover {
+
+    background-color: whitesmoke;
 }
 
 .townName {
@@ -58,8 +69,15 @@ div.summary {
 
 .contact{
 
- margin: 10px auto;
- border: 1px solid #bbb;
+width: auto;
+height: 50vh;
+border: 1px solid #bbb; 
+margin: 10px auto;
+background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/lesson-4/images/contact.jpg");
+background-position: center;
+background-size: 130%;
+background-repeat: no-repeat;
+color: whitesmoke;
 }
 
 .contact img {
@@ -73,7 +91,7 @@ div.summary {
 
 .article {
 
- border: 1px solid #bbb;
+ 
  margin: 10px auto;
 }
 
@@ -94,4 +112,8 @@ footer {
     align-items: center;
     text-align: center;
     
+}
+
+ul {
+    list-style-type: none;
 }
