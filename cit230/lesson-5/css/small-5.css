@@ -1,0 +1,52 @@
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.menuBar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;;
+    background-color: #666;
+}
+
+ul .dropdown {
+    display: none;
+    cursor: pointer;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 15px 0 15px 20px;
+    text-decoration: none;
+    color: #bbb;
+}
+
+.menuBar ul li a:hover {
+    color: #fff;
+}
+
+@media (max-width: 30em) {
+    .nav ul li {
+        float: none;
+    }
+    ul .dropdown {
+        display: block;
+        padding: 15px 0 15px 20px;
+        color: #bbb;
+    }
+    ul .menu li a {
+        padding: 0px 20px 10px 20px;
+    }
+    ul .menu {
+        display: none;
+    }
+    ul li:hover .menu {
+        display: block;
+    }
+}
