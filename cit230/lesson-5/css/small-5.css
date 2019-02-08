@@ -3,12 +3,36 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+header {
+    margin: 10px auto;
+    text-align: center;
+    
+}
+
+.headings h1{
+    color:     #cccccc;
+
+}
+
+header img, .headings {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.menuBar {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #f2f2f2;
+      
+}
+
 .menuBar ul {
     margin: 0;
     padding: 0;
     list-style: none;
     overflow: hidden;;
-    background-color: #666;
+    background-color:  #ffffff;
+    
 }
 
 ul .dropdown {
@@ -24,11 +48,13 @@ ul .dropdown {
     display: block;
     padding: 15px 0 15px 20px;
     text-decoration: none;
-    color: #bbb;
+    text-align: center;
+    color:   #000000;
+    
 }
 
-.menuBar ul li a:hover {
-    color: #fff;
+.menuBar a:hover {
+    color:  #4d4d4d;
 }
 
 @media (max-width: 30em) {
@@ -38,7 +64,10 @@ ul .dropdown {
     ul .dropdown {
         display: block;
         padding: 15px 0 15px 20px;
-        color: #bbb;
+        color:  #000000;
+        text-align: center;
+        
+        
     }
     ul .menu li a {
         padding: 0px 20px 10px 20px;
@@ -50,3 +79,74 @@ ul .dropdown {
         display: block;
     }
 }
+
+main h2 {
+    font-family: 'Major Mono Display', monospace;
+    text-align: center;
+    color: black;
+}
+
+.hero-ph {
+    margin: 10px auto;
+    border: 1px solid #333333;
+    width: 80%;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/lesson-4/images/Preston.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+    background: #fafafa  ;
+    
+}
+
+.weathersummary {
+    position: absolute;
+    font-size: 85%;
+    top: 1px;
+    left: 180px;
+   
+}
+
+@media (max-width: 30em) {
+    .weathersummary {
+        position: absolute;
+        top: 1px;
+        left: 60px;
+    }
+
+}
+
+.article {
+    background: #fafafa  ;
+    color: #757575   ;
+    
+    
+}
+
+.article h3{
+    font-family: 'Major Mono Display', monospace;
+}
+
+.article h4 {
+    font-family: 'Major Mono Display', monospace;
+}
+
+.article p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 100%;
+}
+
+.article img {
+    float: right;
+}
+
+.contact {
+    background: #fafafa  ;
+}
+
