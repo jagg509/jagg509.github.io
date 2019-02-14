@@ -58,10 +58,11 @@ main h2 {
     width: 100%;
     height: 250px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/lesson-6/images/city.jpg");
-    background-size: cover;
-    background-position: center center;
+    height: 300px;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
 }
 
 .herodiv {
