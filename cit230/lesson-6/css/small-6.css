@@ -25,11 +25,13 @@ header img, .headings {
 
 
 nav {	margin: 0 auto;	max-width: 98%; background-color: #fafafa;	}
-.navigation { list-style: none; text-align: center; }
-  .navigation li:first-child { display: block;}
+.navigation { list-style: none;text-align: center}
+  .navigation li:first-child { display: block; }
   .navigation li { display: none;}
-  .navigation a {	display: block;	color:black; padding: .75rem;	text-align: center;	text-decoration: none;}
-  .navigation a:hover {	color: #000;  font-weight: 700;	}
+  .navigation a {display: block; color:black; padding: .75rem; text-align: center; text-decoration: none;}
+  .active, .page:hover {color: #000;  font-weight: 700;	}
+
+  
   
 
 
@@ -37,9 +39,11 @@ nav {	margin: 0 auto;	max-width: 98%; background-color: #fafafa;	}
 
 
 @media only screen and (min-width: 40em) {
+
   .navigation li:first-child { display: none; margin-right: 1rem;}
 	.navigation li { display: inline-block; }	
-	.navigation li a { color: black;}
+    .navigation li a { color: black;}
+    
 }
 
 
