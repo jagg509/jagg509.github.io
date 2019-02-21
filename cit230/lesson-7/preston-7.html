@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>208 Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/small-7.css" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  
+</head>
+
+<body>
+
+    <header>
+        <img src="images/iconColor.png" alt="The logo" height="60">
+        <section class="headings">
+
+            <div class="motto">Always checking the skies of Idaho</div>
+        </section>
+
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" class="page"  onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#" class="page">Home</a></li>
+            <li><a href="preston-7.html" class="page active" >Preston</a></li>
+            <li><a href="#" class="page" >Soda Springs</a></li>
+            <li><a href="#" class="page" >Fish Haven</a></li>
+            <li><a href="#" class="page" >Storm Center</a></li>
+            <li><a href="gallery-7.html" class="page" >Gallery</a></li>
+        </ul>
+    </nav>
+      
+
+    <main>
+        <h2>Preston</h2>
+        <div class="herodiv">
+            <div class="hero-ph"></div>
+
+            <section class="weathersummary">
+                <h3>Weather Summary</h3>
+                <p>Currently: Sunny</p>
+                <p>High: <span id="air-average">76</span> &#8457;</p>
+                <p>Wind Chill: <span id="chill-factor"></span> &#8457;</p>
+                <p>Humidity: 69%</p>
+                <p>Wind Speed: <span id="air-speed">5</span> mph</p>
+                
+            </section>
+        </div>
+    </main>
+
+    <div class="forecast">
+
+        <h2>5 Day Forecast</h2>
+
+        <div class="fiveDays">
+            <div class="day">Wed</div>
+            <div class="icon"></div>
+            <div class="temp">89&#8457;</div>
+
+        </div>
+
+        <div class="fiveDays">
+            <div class="day">Thu</div>
+            <div class="icon"></div>
+            <div class="temp">87&#8457;</div>
+
+        </div>
+        <div class="fiveDays">
+            <div class="day">Fri</div>
+            <div class="icon"></div>
+            <div class="temp">78&#8457;</div>
+
+        </div>
+        <div class="fiveDays">
+            <div class="day">Sat</div>
+            <div class="icon"></div>
+            <div class="temp">75&#8457;</div>
+
+        </div>
+        <div class="fiveDays">
+            <div class="day">Sun</div>
+            <div class="icon"></div>
+            <div class="temp">72&#8457;</div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <div class="article">
+
+        <img src="images/pollution.jpg" alt="Pollution">
+
+        <h3>Global warming</h3>
+
+        <h4>by Wikipedia</h4>
+
+
+
+        <p>Global warming is a long-term rise in the average temperature
+            of the Earth's climate system, an aspect of climate change shown
+            by temperature measurements and by multiple effects of the warming.
+            The term commonly refers to the mainly human-caused observed warming
+            since pre-industrial times and its projected continuation,
+            though there were also much earlier periods of global warming.
+            In the modern context the terms global warming and climate change
+            are commonly used interchangeably,but climate change includes both
+            global warming and its effects, such as changes to precipitation and
+            impacts that differ by region.Many of the observed warming changes since
+            the 1950s are unprecedented in the instrumental temperature record,
+            and in historical and paleoclimate proxy records of climate change
+            over thousands to millions of years.
+
+        </p>
+
+
+
+    </div>
+
+    <div class="contact">
+
+        <h3>208 Weather</h3>
+
+        <ul>
+
+            <li>30 N 1st E</li>
+            <li>Preston, ID 83263</li>
+            <br>
+            <li>999.999.9999</li>
+            <li>208weather@tws.com</li>
+            
+
+        </ul>
+
+    </div>
+
+    <footer>
+        <img src="images/icon.jpg" alt="Company icon on the footer" height="25">
+        <section class="copyright">
+            <div>Jose A Gonzalez - 208weather &copy;, BYU-Idaho <span id="date"></span></div>
+        </section>
+    </footer>
+
+    
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/activePage.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+</body>
+
+</html>

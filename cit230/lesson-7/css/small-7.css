@@ -1,0 +1,296 @@
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+header {
+    margin: 10px auto;
+    text-align: center;
+    
+}
+
+.headings h1{
+    color:     #cccccc;
+
+}
+
+header img, .headings {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+/* Menu Section */
+
+
+
+nav {	margin: 0 auto;	max-width: 98%; background-color: #fafafa;	}
+.navigation { list-style: none;text-align: center}
+  .navigation li:first-child { display: block; }
+  .navigation li { display: none;}
+  .navigation a {display: block; color:black; padding: .75rem; text-align: center; text-decoration: none;}
+  .active, .page:hover {color: #000;  font-weight: 700;	}
+
+  
+  
+
+
+	.responsive li { display: block; }
+
+
+@media only screen and (min-width: 40em) {
+
+  .navigation li:first-child { display: none; margin-right: 1rem;}
+	.navigation li { display: inline-block; }	
+    .navigation li a { color: black;}
+    
+}
+
+
+
+ /* Summary */ 
+
+
+main h2 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.hero-ph {
+    margin: 10px auto;
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/lesson-6/images/city.jpg");
+    height: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.herodiv {
+    width: 85%;
+    margin: 10px auto;
+    position: relative;
+    background: #fafafa  ;
+    
+}
+
+.weathersummary {
+    
+    color: whitesmoke;
+    position: absolute;
+    font-size: 85%;
+    top: 10px;
+    left: 30px;
+   
+}
+
+@media (max-width: 30em) {
+    .weathersummary {
+        position: absolute;
+        top: 1px;
+        left: 30px;
+    }
+
+    .herodiv {
+        width: 95%;
+    }
+
+}
+
+
+ /* Article */ 
+.article {
+    background: #fafafa  ;
+    color: #757575   ;
+    width: 85%;
+    margin: auto;
+    
+}
+
+.article h3{
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+.article h4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.article p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 100%;
+}
+
+.article img {
+    float: right;
+
+}
+
+
+
+
+@media (max-width: 30em) {
+
+    .article img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.article {
+        width: 95%;
+        margin: auto;
+      }
+   
+
+}
+
+
+/* Five Day Forecast */
+
+.forecast h2{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.forecast {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    background: #fafafa  ;
+}
+
+.fiveDays{
+    padding: 10px;
+    display: inline-block;
+   
+
+}
+
+.fiveDays .icon {
+    width: 50px;
+    height: 50px;
+    background-image: url('https://jagg509.github.io/cit230/lesson-6/images/sunnyIcon.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 30em) {
+
+    .forecast {
+        display: none;
+        cursor: pointer;
+    }
+
+}
+
+
+/* Contact */
+.contact {
+    background: #fafafa  ;
+    width: 85%;
+    margin: auto;
+}
+
+.contact h3 {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+
+}
+
+.contact ul{
+    list-style: none;
+}
+
+@media (max-width: 30em) {
+    .contact {
+        width: 95%;
+        margin: auto;
+        
+    }
+
+}
+
+
+/* Footer */
+
+
+
+footer {
+margin: 10px auto;
+text-align: center;
+
+}
+
+footer img {
+display: inline-block;
+vertical-align: middle;
+margin: 10px;
+}
+
+
+/* Gallery Site */
+
+
+@media (min-width: 480px) {
+
+
+    .wrapper {
+        width: 95%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(100px, auto);
+        justify-items: center;
+        text-align: center;
+      }
+      * {box-sizing: border-box;}
+      
+      
+      
+      .wrapper > div {
+          padding: 1em;
+          }
+      
+      .image-box img {
+          width: 100%;
+      }
+
+}
+
+    
+    @media (min-width: 800px) {
+.wrapper{
+
+
+    grid-template-columns: repeat(2, 1fr);
+}
+     
+
+    }
+
+        @media (min-width: 1025px) {      
+            .wrapper {
+
+                grid-template-columns: repeat(3, 1fr);
+
+            }
+            
+            .image-box:hover {box-shadow: 0 0 50px #333;}
+
+          }
+
+.gallery h2 {
+    
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: black;
+           
+          }          
