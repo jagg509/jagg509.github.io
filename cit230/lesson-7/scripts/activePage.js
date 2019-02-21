@@ -1,5 +1,7 @@
 
-var pages = document.getElementsByClassName("page");
+var menu = document.getElementById("directory")
+
+let pages = menu.getElementsByClassName("page");
 
 for (var i = 0; i < pages.length; i++) {
     pages[i].addEventListener("click", function() {

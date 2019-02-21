@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/small-7.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/medium-7.css" />
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   
 </head>
@@ -16,15 +17,15 @@
 
     <header>
         <img src="images/iconColor.png" alt="The logo" height="60">
-        <section class="headings">
+        <nav class="headings">
 
             <div class="motto">Always checking the skies of Idaho</div>
-        </section>
+        </nav>
 
     </header>
 
     <nav>
-        <ul class="navigation">
+        <ul class="navigation" id="directory">
             <li><a href="#" class="page"  onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="#" class="page">Home</a></li>
             <li><a href="preston-7.html" class="page active" >Preston</a></li>
@@ -48,7 +49,6 @@
                 <p>Wind Chill: <span id="chill-factor"></span> &#8457;</p>
                 <p>Humidity: 69%</p>
                 <p>Wind Speed: <span id="air-speed">5</span> mph</p>
-                
             </section>
         </div>
     </main>
@@ -88,8 +88,6 @@
             <div class="temp">72&#8457;</div>
 
         </div>
-
-
 
 
 
@@ -134,7 +132,7 @@
 
             <li>30 N 1st E</li>
             <li>Preston, ID 83263</li>
-            <br>
+            
             <li>999.999.9999</li>
             <li>208weather@tws.com</li>
             
@@ -145,16 +143,15 @@
 
     <footer>
         <img src="images/icon.jpg" alt="Company icon on the footer" height="25">
-        <section class="copyright">
+        <div class="copyright">
             <div>Jose A Gonzalez - 208weather &copy;, BYU-Idaho <span id="date"></span></div>
-        </section>
+        </div>
     </footer>
 
-    
-    <script src="scripts/hamburger.js"></script>
-    <script src="scripts/activePage.js"></script>
-    <script src="scripts/currentdate.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script type="text/javascript" src="scripts/hamburger.js"></script>
+    <script type="text/javascript" src="scripts/currentdate.js"></script>
+    <script type="text/javascript" src="scripts/activePage.js"></script>
+    <script type="text/javascript"  src="scripts/windchill.js"></script>
 
 </body>
 
