@@ -103,6 +103,8 @@ main h2 {
 
  /* Article */ 
 .article {
+    padding-left: 15px;
+    padding-bottom: 10px;
     background: #fafafa  ;
     color: #757575   ;
     width: 85%;
@@ -111,6 +113,7 @@ main h2 {
 }
 
 .article h3{
+    padding-top: 10px;
     font-family: 'Major Mono Display', monospace;
     color: black;
 }
@@ -153,6 +156,7 @@ main h2 {
 /* Five Day Forecast */
 
 .forecast h2{
+    padding-top: 10px;
     font-family: 'Major Mono Display', monospace;
     text-align: center;
     color: black;
@@ -194,12 +198,15 @@ main h2 {
 
 /* Contact */
 .contact {
+    padding-left: 15px;
+    padding-bottom: 10px;
     background: #fafafa  ;
     width: 85%;
     margin: auto;
 }
 
 .contact h3 {
+    padding-top: 10px;
     font-family: 'Major Mono Display', monospace;
     color: black;
 

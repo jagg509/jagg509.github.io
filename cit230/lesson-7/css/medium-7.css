@@ -1,5 +1,5 @@
 /* Gallery Site */
-@media (min-width: 700px) {
+@media (min-width: 650px) {
     .wrapper{
            grid-template-columns: repeat(2, 1fr);
     }
