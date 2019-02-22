@@ -1,0 +1,10 @@
+/* Gallery Site */
+@media (min-width: 1025px) {      
+    .wrapper {                     
+       grid-template-columns: repeat(3, 1fr);
+          }
+           
+   .image-box:hover {box-shadow: 0 0 50px #333;}
+       
+         }  
+    

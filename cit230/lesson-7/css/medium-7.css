@@ -1,0 +1,8 @@
+/* Gallery Site */
+@media (min-width: 700px) {
+    .wrapper{
+           grid-template-columns: repeat(2, 1fr);
+    }
+}  
+
+

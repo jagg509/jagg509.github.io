@@ -3,4 +3,4 @@ function dateUpdate() {
    document.getElementById("date").innerHTML = event.toDateString();
 }
 
-window.onload = dateUpdate;
+window.onload = dateUpdate();
