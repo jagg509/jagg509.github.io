@@ -308,30 +308,33 @@ input[type=tel],
 input[type=number],
 input[type=date],
 input[list="storms"],
-input[type="range"],
 select[name="regions"] {
 
     width: 40%; 
   padding: 15px;
-  margin: 5px 0 22px 0;
+  margin: 2px 0 22px 0;
   display: inline-block;
   border: none;
   background: #f1f1f1;
 
 }
 
-input[type=radio],
-textarea {
-    width: 40%;
-    margin: 2px 0 8px 0; 
+input[type="range"] {
+
+    width: 40%; 
   padding: 15px;
-  display: inline-block;
- 
-  
-  
+  margin: 2px 0 0 0;
 
 }
 
+input[type=radio],
+textarea {
+    width: 40%;
+    margin: 5px 0 8px 0; 
+  padding: 40px;
+  display: inline-block;
+ 
+}
 
 
 .submitbtn {
@@ -353,7 +356,7 @@ textarea {
 
   }
   
-  /* Storm Center */  
+  /* Thank you Site */  
 
   .thanks {
     z-index: 10;
