@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>208 Weather</title>
+    <meta name="description" content="Storm Center Site">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/small-8.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/medium-8.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/large-8.css" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <img src="images/iconColor.png" alt="The logo" height="60">
+        <nav class="headings">
+
+            <div class="motto">Always checking the skies of Idaho</div>
+        </nav>
+
+    </header>
+
+    <nav class="menu">
+        <ul class="navigation" id="directory">
+            <li><a href="#" class="page" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#" class="page">Home</a></li>
+            <li><a href="preston-8.html" class="page">Preston</a></li>
+            <li><a href="#" class="page">Soda Springs</a></li>
+            <li><a href="#" class="page">Fish Haven</a></li>
+            <li><a href="stormcenter.html" class="page active">Storm Center</a></li>
+            <li><a href="gallery-8.html" class="page">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="thanks.html" method="get" id="stormcenter">
+            <div class="formcontainer">
+                <h1>Storm Center</h1>
+                <p> Report a storm or unusual weather event in your travel area. </p>
+                <hr>
+
+                <label><b>Full Name</b></label>
+                <input type="text" placeholder="Enter your full name" pattern="[A-Za-z ]{4,}" name="name" required>
+
+                <label><b>Email</b></label>
+                <input type="email" placeholder="weather@email.com" name="email">
+
+                <label><b>Phone Number</b></label>
+                <input type="tel" placeholder="123 456 789" name="telephone" required>
+
+                <label><b>Zip Code</b></label>
+                <input type="number" placeholder="Enter Zip Code" name="zip" required>
+
+                <label><b>Storm Date</b></label>
+                <input type="date" name="stormdate">
+
+                <label><b>Storm type</b></label>
+                <input list="storms" name="stormtype">
+
+                <datalist id="storms">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
+
+                <label><b>Storm severity</b></label>
+                <input type="range" name="severity" id="range_severity" value="5" min="1" max="10"
+                    oninput="range_severity_disp.value = range_severity.value">
+                <output id="range_severity_disp"></output>
+
+
+                <br>
+                <b>Storm region</b>
+                <select name="regions" form="stormcenter">
+                    <option value="" disabled selected>Select Region</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda">Soda Springs</option>
+                    <option value="Fish">Fish Haven</option>
+                </select>
+
+                <div id="safety">
+                    <b>User in-danger level </b>
+                    <br>
+                    <input type="radio" name="dangerlevel" value="Yes"> Yes<br>
+                    <input type="radio" name="dangerlevel" value="Maybe"> Maybe<br>
+                    <input type="radio" name="dangerlevel" value="No"> No <br>
+                </div>
+
+                <b>Additional information or comments</b>
+                <textarea id="comments" rows="4" cols="50" name="comment" form="stormcenter"></textarea>
+
+
+                <p>By submiting a report you agree to our <a href="#">Terms & Conditions</a>.</p>
+
+                <button type="submit" class="submitbtn">Submit</button>
+            </div>
+
+
+        </form>
+    </main>
+
+    <footer>
+        <img src="images/icon.jpg" alt="Company icon on the footer" height="25">
+        <div class="copyright">
+            <div>Jose A Gonzalez - 208weather &copy;, BYU-Idaho <span id="date"></span></div>
+        </div>
+    </footer>
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/activePage.js"></script>
+    
+
+</body>
+
+</html>
