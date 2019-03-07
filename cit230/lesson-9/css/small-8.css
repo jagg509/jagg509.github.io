@@ -120,7 +120,7 @@ main h2 {
     
     padding-left: 15px;
     padding-bottom: 5px;
-    background: #fafafa  ;
+    background: #fafafa ;
     color: #757575   ;
     width: 85%;
     margin: auto;
@@ -344,7 +344,7 @@ textarea {
     background-color: black;
     padding: 10px 20px;
     border: 0;
-    border-radius: $border-radius;
+    border-radius: border-radius;
     transition: all 150ms ease-out;
   
   }
@@ -390,4 +390,34 @@ textarea {
   line-height: 1;
   color: black;
   letter-spacing: 2px;
+}
+
+/* Home Page */  
+
+.video {
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.media {
+    max-width: 85%;
+    background: #fafafa ;
+    margin: auto;
+}
+
+.media h2 {
+
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+@media (max-width: 45em) {
+	.video{
+        flex-direction: column;
+        
+    }
 }
