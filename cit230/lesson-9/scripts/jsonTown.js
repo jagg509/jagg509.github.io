@@ -20,6 +20,9 @@ function showTowns(jsonObj) {
 
     for (let i = 0; i < cities.length; i++) {
 
+
+        
+
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
         var myPara1 = document.createElement('p');
@@ -28,16 +31,14 @@ function showTowns(jsonObj) {
         var myPara4 = document.createElement('p');
 
 
-
-        if (cities[i].name = 'Preston' || 'Soda Springs' || 'Fish Haven') {
-
+        if (cities[i].name == "Preston" || "Soda Springs" || "Fish Haven") {
             myH2.textContent = cities[i].name;
             myPara1.textContent = 'motto: ' + cities[i].motto;
             myPara2.textContent = 'yearFounded: ' + cities[i].yearFounded;
             myPara3.textContent = 'currentPopulation:' + cities[i].currentPopulation;
             myPara4.textContent = 'averageRainfall:' + cities[i].averageRainfall;
         }
-
+        
 
         myArticle.appendChild(myH2);
         myArticle.appendChild(myPara1);
@@ -46,6 +47,6 @@ function showTowns(jsonObj) {
         myArticle.appendChild(myPara4);
 
         section.appendChild(myArticle);
-
+    
     }
 }

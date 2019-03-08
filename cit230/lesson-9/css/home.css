@@ -1,0 +1,33 @@
+.news {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 85%;
+	margin: 1rem auto;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .news img {
+
+    width: 60%;
+
+  }
+  
+  .news > div {
+    
+    margin: 10px;
+    text-align: center;
+    width: 80%;
+    
+  }
+
+
+section{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 85%;
+	margin: 1rem auto;
+	justify-content: center;
+}
+
+
