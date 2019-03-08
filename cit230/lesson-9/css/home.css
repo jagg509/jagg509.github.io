@@ -21,6 +21,19 @@
     
   }
 
+.newshead {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 150%
+}
+
+.news .button:hover {
+
+    background-color: darken;
+    font-weight: 700;
+    
+
+}
 
 section{
     display: flex;

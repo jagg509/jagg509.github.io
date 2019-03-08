@@ -16,10 +16,12 @@ request.onload = function () {
 
 function showTowns(jsonObj) {
     var cities = jsonObj['towns'];
-
+    
 
     for (let i = 0; i < cities.length; i++) {
+        
 
+        if (cities[i].name == "Soda Springs" || cities[i].name == "Preston" || cities[i].name == "Fish Haven" ) {
 
         
 
@@ -31,13 +33,13 @@ function showTowns(jsonObj) {
         var myPara4 = document.createElement('p');
 
 
-        if (cities[i].name == "Preston" || "Soda Springs" || "Fish Haven") {
+        
             myH2.textContent = cities[i].name;
             myPara1.textContent = 'motto: ' + cities[i].motto;
             myPara2.textContent = 'yearFounded: ' + cities[i].yearFounded;
             myPara3.textContent = 'currentPopulation:' + cities[i].currentPopulation;
             myPara4.textContent = 'averageRainfall:' + cities[i].averageRainfall;
-        }
+        
         
 
         myArticle.appendChild(myH2);
@@ -48,5 +50,6 @@ function showTowns(jsonObj) {
 
         section.appendChild(myArticle);
     
+        }
     }
 }
