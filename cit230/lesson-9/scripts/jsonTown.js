@@ -35,10 +35,10 @@ function showTowns(jsonObj) {
 
         
             myH2.textContent = cities[i].name;
-            myPara1.textContent = 'motto: ' + cities[i].motto;
-            myPara2.textContent = 'yearFounded: ' + cities[i].yearFounded;
-            myPara3.textContent = 'currentPopulation:' + cities[i].currentPopulation;
-            myPara4.textContent = 'averageRainfall:' + cities[i].averageRainfall;
+            myPara1.textContent = 'Motto: ' + cities[i].motto;
+            myPara2.textContent = 'Year Founded: ' + cities[i].yearFounded;
+            myPara3.textContent = 'Current Population:' + cities[i].currentPopulation;
+            myPara4.textContent = 'Average Rainfall:' + cities[i].averageRainfall;
         
         
 
@@ -49,6 +49,8 @@ function showTowns(jsonObj) {
         myArticle.appendChild(myPara4);
 
         section.appendChild(myArticle);
+
+       
     
         }
     }
