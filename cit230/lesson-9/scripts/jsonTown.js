@@ -21,7 +21,7 @@ function showTowns(jsonObj) {
     for (let i = 0; i < cities.length; i++) {
         
 
-        if (cities[i].name == "Soda Springs" || cities[i].name == "Preston" || cities[i].name == "Fish Haven" ) {
+        if (cities[i].name == "Preston" || cities[i].name == "Soda Springs" || cities[i].name == "Fish Haven" ) {
 
         
 
