@@ -394,30 +394,119 @@ textarea {
 
 /* Home Page */  
 
-.video {
+.news {
     display: flex;
-    padding-bottom: 10px;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.media {
+    flex-wrap: nowrap;
     max-width: 85%;
-    background: #fafafa ;
-    margin: auto;
+  	margin: 1rem auto;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .news img {
+
+    width: 60%;
+
+  }
+  
+  .news > div {
+    
+    margin: 10px;
+    text-align: center;
+    width: 80%;
+    
+  }
+
+.newshead {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 150%
 }
 
-.media h2 {
+.news .button:hover {
 
-    font-family: 'Ubuntu', sans-serif;
+    background-color: darken;
+    font-weight: 700;
     
+
+}
+
+.tjson {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 85%;
+  margin: 1rem auto;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+  background: #fafafa;
+}
+
+.tjson article{
+
+  
+  margin: 10px;
+  text-align: center;
+  width: 98%;
+  height: 300px;
+  color: whitesmoke;
+  
+
+}
+
+.tjson article:nth-child(1){
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/lesson-9/images/city1.jpeg");
+    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.tjson article:nth-child(2){
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/lesson-9/images/city2.jpeg");
+    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.tjson article:nth-child(3){
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/lesson-9/images/city3.jpeg");
+    
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.tjson h2{
+
+  text-align: center;
+
 }
 
 
 @media (max-width: 45em) {
-	.video{
-        flex-direction: column;
-        
-    }
+  .tjson {
+
+    flex-direction: column;
+  }
+
+  .news{
+
+    flex-direction: column;
+    align-items: center;
+    background: #fafafa;
+  }
+
+}
+
+.cityHeader {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 150%
 }
