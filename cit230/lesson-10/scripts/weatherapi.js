@@ -9,5 +9,5 @@ weatherObj.onload = function () {
 
     console.log(jsonRespObj);
 
-    document.getElementById('current-temp').innerHTML = jsonRespObj.main.temp;
+    document.getElementById('current-temp').innerHTML = jsonRespObj.list[0].main.temp;
 }
