@@ -14,7 +14,7 @@ weatherObj.onload = function () {
 
     
 
-    let listLoop = jsonRespObj.list;
+    let listLoop = jsonRespObj['list'];
     
     for (let i = 0; i < listLoop.length; i++) {
         
