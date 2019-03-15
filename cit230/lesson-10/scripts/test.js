@@ -20,45 +20,20 @@ forecastObj.onload = function () {
         
             if (listLoop[i].dt_txt.includes('18:00:00')) {
 
-                var divSection = document.createElement('div');
-                var forecastDay = document.createElement('div');
+                var divSection = document.createElement('article');
+                var forecastDay = document.createElement('p');
                 var imageIcon = document.createElement('img');
                 var imageLink = 'http://openweathermap.org/img/w/'+listLoop[i].weather[0].icon+'.png';
-                var tempForcast = document.createElement('div');
-
-                divSection.setAttribute('class', 'fivedays');
+                var tempForcast = document.createElement('p');
 
                 var n = new Date(listLoop[i].dt_txt);
                 var day = n.getDay();
 
-                switch (day) {
-                    case 0:
-                    day = "Sun";
-                    break;
-                  case 1:
-                    day = "Mon";
-                    break;
-                  case 2:
-                    day = "Tue";
-                    break;
-                  case 3:
-                    day = "Wed";
-                    break;
-                  case 4:
-                    day = "Thur";
-                    break;
-                  case 5:
-                    day = "Fri";
-                    break;
-                  case  6:
-                    day = "Sat";
                 
-                }
-
-                             
-                forecastDay.textContent = day;
+                
+                forecastDay.textContent = listLoop[i].weather[0].id;
                 imageIcon.setAttribute('src', imageLink);
-                tempForcast.textContent = listLoop[0].main.temp + "℉";
+                tempForcast.textContent = day;
 
                 divSection.appendChild(forecastDay);
                 divSection.appendChild(imageIcon);
@@ -72,7 +47,3 @@ forecastObj.onload = function () {
     }
 
 }
-
-
-
-
