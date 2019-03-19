@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>208 Weather - Soda Springs </title>
+    <meta name="description" content="Soda Springs Weather Site">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/small.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/medium.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/large.css" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><img src="images/icon.jpg" alt="The logo" height="60"></a>
+        <nav class="headings">
+
+            <div class="motto">Always checking the skies of Idaho</div>
+        </nav>
+
+    </header>
+
+    <nav class="menu">
+        <ul class="navigation" id="directory">
+            <li><a href="#" class="page" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html" class="page">Home</a></li>
+            <li><a href="preston.html" class="page">Preston</a></li>
+            <li><a href="sodasprings.html" class="page active">Soda Springs</a></li>
+            <li><a href="#" class="page">Fish Haven</a></li>
+            <li><a href="stormcenter.html" class="page">Storm Center</a></li>
+            <li><a href="gallery.html" class="page">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <h2>Soda Springs</h2>
+        <div class="herodiv">
+            <div class="hero-ph"></div>
+
+            <div class="weathersummary">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="currentWea"></span></p>
+                <p>High: <span id="air-average"></span> &#8457;</p>
+                <p>Wind Chill: <span id="chill-factor"></span> &#8457;</p>
+                <p>Humidity: <span id="humidity"></span> </p>
+                <p>Wind Speed: <span id="air-speed">5</span> mph</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="forecast">
+
+        <h2>5 Day Forecast</h2>
+
+     
+        
+
+
+
+    </section>
+
+
+    <div class="article">
+
+        <img src="images/pollution.jpg" alt="Pollution">
+
+        <h3>Global warming</h3>
+
+        <h4>by Wikipedia</h4>
+
+
+
+        <p>Global warming is a long-term rise in the average temperature
+            of the Earth's climate system, an aspect of climate change shown
+            by temperature measurements and by multiple effects of the warming.
+            The term commonly refers to the mainly human-caused observed warming
+            since pre-industrial times and its projected continuation,
+            though there were also much earlier periods of global warming.
+            In the modern context the terms global warming and climate change
+            are commonly used interchangeably,but climate change includes both
+            global warming and its effects, such as changes to precipitation and
+            impacts that differ by region.Many of the observed warming changes since
+            the 1950s are unprecedented in the instrumental temperature record,
+            and in historical and paleoclimate proxy records of climate change
+            over thousands to millions of years.
+
+        </p>
+
+
+
+    </div>
+
+    <div class="contact">
+
+        <h3>208 Weather</h3>
+
+        <ul>
+
+            <li>30 N 1st E</li>
+            <li>Preston, ID 83263</li>
+
+            <li>999.999.9999</li>
+            <li>208weather@tws.com</li>
+
+
+        </ul>
+
+    </div>
+
+    <footer>
+        <img src="images/icon.jpg" alt="Company icon on the footer" height="25">
+        <div class="copyright">
+            <div>Jose A Gonzalez - 208weather &copy;, BYU-Idaho <span id="date"></span>, <a href="https://openweathermap.org/">OpenWeatherMap</a> </div>
+        </div>
+    </footer>
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/summarysoda.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/activePage.js"></script>
+    <script src="scripts/forecastsoda.js"></script>
+
+
+</body>
+
+</html>
