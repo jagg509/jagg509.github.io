@@ -83,6 +83,17 @@ main h2 {
     position: relative;
 }
 
+.hero-ph #sodahero {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/weathersite/images/soda.jpg");
+    height: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
 .herodiv {
     width: 85%;
     margin: 10px auto;
