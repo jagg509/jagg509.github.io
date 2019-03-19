@@ -28,7 +28,7 @@ header img, .headings {
 
 
 .menu {
-	max-width: 85%;
+	max-width: 80%;
 	margin: 1rem auto;
 	background-color: whitesmoke;
 }
@@ -85,7 +85,7 @@ main h2 {
 
 #sodahero {
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/weathersite/images/soda.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/weathersite/images/sodaspring.jpg");
     height: 270px;
     background-position: center;
     background-repeat: no-repeat;
@@ -95,7 +95,7 @@ main h2 {
 }
 
 .herodiv {
-    width: 85%;
+    width: 80%;
     margin: 10px auto;
     position: relative;
     background: #fafafa  ;
@@ -106,7 +106,7 @@ main h2 {
     
     color: whitesmoke;
     position: absolute;
-    font-size: 85%;
+    font-size: 80%;
     top: 10px;
     left: 30px;
    
@@ -133,7 +133,7 @@ main h2 {
     padding-bottom: 5px;
     background: #fafafa ;
     color: #757575   ;
-    width: 85%;
+    width: 80%;
     margin: auto;
     
 }
@@ -190,7 +190,7 @@ main h2 {
 
 .forecast {
     
-    width: 85%;
+    width: 80%;
     margin: auto;
     text-align: center;
     vertical-align: middle;
@@ -227,7 +227,7 @@ main h2 {
 .contact {
     padding-left: 15px;
     background: #fafafa  ;
-    width: 85%;
+    width: 80%;
     margin: auto;
 }
 
@@ -408,7 +408,7 @@ textarea {
 .news {
     display: flex;
     flex-wrap: nowrap;
-    max-width: 85%;
+    max-width: 80%;
   	margin: 1rem auto;
     justify-content: center;
     font-family: 'Ubuntu', sans-serif;
@@ -445,7 +445,7 @@ textarea {
 .tjson {
   display: flex;
   flex-wrap: nowrap;
-  max-width: 85%;
+  max-width: 80%;
   margin: 1rem auto;
   justify-content: center;
   font-family: 'Ubuntu', sans-serif;
