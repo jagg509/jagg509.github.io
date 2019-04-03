@@ -90,6 +90,7 @@ header {
 	color: white;
 	background: #a59f93;
 	text-align: center;
+
 	  text-decoration: none;
 	  padding: 15px 30px;
 }
@@ -98,15 +99,58 @@ header {
 
 .temple-of-home {
 
+	margin: auto;
+	margin-top: 25px;
+	width: 90%;
 	display: flex;
 	justify-content: center;
-	text-align: center;
-}
-
-.photo-temle-home{
+	align-items: center;
 	
 }
 
+.temple-of-home dl {
+
+	
+	padding-right: 50px; 
+	font-family: 'Bree Serif', serif;
+	color:#a59f93;
+
+}
+
+.photo-temle-home img{
+width: 90%;
+
+}
+
+.footer-temple-home {
+
+	
+	margin-top: 20px;	
+	text-align: center;
+
+}
+
+.footer-temple-home .button-rome {
+
+	font-family: 'Bree Serif', serif;
+	color: white;
+	background: #f99185;
+	text-align: center;
+	font-size: 200%;
+	  text-decoration: none;
+	  padding: 15px 30px;
+}
+
+.title-temple-home {
+
+	font-family: 'Bree Serif', serif;
+	font-size: 30px;
+	letter-spacing: 3px;
+	color: #a59f93;
+	text-align: center;
+	margin-top: 15px;
+
+}
 
 /*Grid on Home*/
 
@@ -172,3 +216,35 @@ header {
 
 
   }
+
+  /* First Footer Home Page*/
+
+  .footer-home{
+	  text-align: center;
+	  font-family: 'Roboto', sans-serif;
+	color: white;
+	letter-spacing: 3px;
+	background: #a59f93;
+	
+  }
+
+  .footer-home a{
+	  text-decoration: none;
+	  color: white;
+  }
+
+  .footer-home a:hover {
+
+	background-color: darken;
+    font-weight: 1000;
+  }
+/* Footer*/
+
+footer {
+
+	display: flex;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	color: #a59f93;
+}
+
