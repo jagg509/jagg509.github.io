@@ -18,7 +18,7 @@
         "No cafeteria available",
 	"No patron housing available",
         "No distribution center nearby"
-      ]
+      ],
 	 "Schedule" : [
         "5:00 PM Walk-ins Only",
         "6:00 PM Walk-ins Only",
@@ -39,7 +39,7 @@
         "No cafeteria available",
 	"No patron housing available",
         "Distribution center nearby"
-      ]
+      ],
 	 "Schedule" : [
         "4:00 PM Walk-ins Only",
         "5:00 PM Walk-ins Only",
@@ -59,7 +59,7 @@
         "No cafeteria available",
 	"No patron housing available",
         "Distribution center nearby"
-      ]
+      ],
 	 "Schedule" : [
         "6:00 PM Walk-ins Only",
         "7:00 PMWalk-ins Only",
@@ -80,7 +80,7 @@
         "No cafeteria available",
 	"No patron housing available",
         "No distribution center nearby"
-      ]
+      ],
 	 "Schedule" : [
         "5:00 PM Walk-ins Only",
         "6:00 PMWalk-ins Only",
