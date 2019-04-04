@@ -1,0 +1,91 @@
+{
+  "templeData" : "Get Jason Item",
+  "homeTown" : "Salt Lake",
+  "formed" : 2016,
+  "active" : true,
+  "members" : [
+    {
+      "templeName" : "Cedar City Utah Temple",
+      "address1" : "280 South Cove Dr",
+      "address2" : "Cedar City UT 84720",
+      "address3" : "United States",
+      "telephone" : "(1) 435-572-4150",
+      "Announced" : "6 April 2013",
+	"Groundbreaking" : "8 August 2015",
+	"Dedicated " : "10 December 2017",	
+      "Services" : [
+        "Clothing rental available",
+        "No cafeteria available",
+	"No patron housing available",
+        "No distribution center nearby"
+      ]
+	 "Schedule" : [
+        "5:00 PM Walk-ins Only",
+        "6:00 PM Walk-ins Only",
+	"7:00 PM Walk-ins Only"
+      ]
+    },
+    {
+      "templeName" : "Hartford Connecticut Temple",
+      "address1" : "2 Central Wy",
+      "address2" : "Farmington CT 06032",
+      "address3" : "United States",
+      "telephone" : "(1) 860-773-7200",
+      "Announced" : "2 October 2010",
+	"Groundbreaking" : "17 August 2013",
+	"Dedicated " : "20 November 2016",	
+      "Services" : [
+        "No clothing rental available",
+        "No cafeteria available",
+	"No patron housing available",
+        "Distribution center nearby"
+      ]
+	 "Schedule" : [
+        "4:00 PM Walk-ins Only",
+        "5:00 PM Walk-ins Only",
+	"6:00 PM Walk-ins Only"
+      ]
+    },{
+      "templeName" : "Provo City Center Temple",
+      "address1" : "50 South University Ave",
+      "address2" : "Provo UT 84601",
+      "address3" : "United States",
+      "telephone" : "(1) 801-343-2700",
+      "Announced" : "1 October 2011",
+	"Groundbreaking" : "12 May 2012",
+	"Dedicated " : "20 March 2016",	
+      "Services" : [
+        "Clothing rental available",
+        "No cafeteria available",
+	"No patron housing available",
+        "Distribution center nearby"
+      ]
+	 "Schedule" : [
+        "6:00 PM Walk-ins Only",
+        "7:00 PMWalk-ins Only",
+	"8:00 PMWalk-ins Only"
+      ]
+    },
+    {
+      "templeName" : "Kansas City Missouri Temple",
+      "address1" : "7001 Searcy Creek Pkwy",
+      "address2" : "Kansas City MO 64119-5336",
+      "address3" : "United States",
+      "telephone" : "(1) 816-413-1430",
+      "Announced" : "4 October 2008",
+	"Groundbreaking" : "8 May 2010",
+	"Dedicated " : "6 May 2012",	
+      "Services" : [
+        "Clothing rental available",
+        "No cafeteria available",
+	"No patron housing available",
+        "No distribution center nearby"
+      ]
+	 "Schedule" : [
+        "5:00 PM Walk-ins Only",
+        "6:00 PMWalk-ins Only",
+	"7:00 PMWalk-ins Only"
+      ]
+    }
+  ]
+}
