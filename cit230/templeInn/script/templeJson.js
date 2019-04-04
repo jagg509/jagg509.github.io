@@ -30,6 +30,8 @@ function showTemples(jsonObj) {
         var myPara7 = document.createElement('p');
         var myPara8 = document.createElement('p');
         var myPara9 = document.createElement('p');
+        var myPara10 = document.createElement('p');
+        var mySpan = document.createElement('span');
         var myList = document.createElement('ul');
         var myList1 = document.createElement('ul');
 
@@ -65,6 +67,10 @@ function showTemples(jsonObj) {
         myPara8.textContent = 'Groundbreaking: ' + templePlaces[i].Groundbreaking;
         myPara9.textContent = 'Dedicated — dedicatory prayer: ' + templePlaces[i].Dedicated;
 
+        mySpan.setAttribute('id',"weather" + templePlaces[i].city );
+
+        myPara10.append(mySpan);
+
         myDiv.appendChild(myH2);
         myDiv.appendChild(myPara1);
         myDiv.appendChild(myPara2);
@@ -78,6 +84,7 @@ function showTemples(jsonObj) {
         myDiv.appendChild(myPara7);
         myDiv.appendChild(myPara8);
         myDiv.appendChild(myPara9);
+        myDiv.appendChild(myPara10);
 
 
 
