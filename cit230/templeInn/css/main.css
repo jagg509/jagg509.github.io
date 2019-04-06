@@ -259,7 +259,6 @@ footer {
   margin: 1rem auto;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
-	background: #fafafa;
 	justify-items: center;
 
 }
@@ -268,17 +267,110 @@ footer {
 
 	margin: 15px;
 	text-align: center;
-	
-  width: 98%;
+	width: 98%;
   color: black;
 	text-decoration-style: none;
+	color: whitesmoke;
 	
 
 }
 
-.jsonSection li {
+.jsonSection h2 {
 
+	letter-spacing: 3.5px;
+	background: #a59f93;
+	color: white;
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+	
+
+}
+
+.jsonSection ul {padding: 0;}
+
+.jsonSection li {
+	
 	list-style: none;
 	
 	
+}
+
+.jsonSection div:nth-child(1) {
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/templeInn/images/cedar.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.jsonSection div:nth-child(2) {
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/templeInn/images/hartford.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.jsonSection div:nth-child(3) {
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/templeInn/images/provo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.jsonSection div:nth-child(4) {
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/templeInn/images/kansas.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.temple-page-index {
+
+	
+	margin-top: 20px;	
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+
+.temple-page-index .button-tindex {
+
+	font-family: 'Bree Serif', serif;
+	color: white;
+	background: #f99185;
+	text-align: center;
+	font-size: 200%;
+	text-decoration: none;
+	padding: 15px 30px;
+}
+
+.title-temple-page h1 {
+
+	text-align: center;
+	font-family: 'Bree Serif', serif;
+	letter-spacing: 12px;
+	color: #a59f93;
+
+}
+
+
+@media (max-width: 65em) {
+
+	.jsonSection {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
 }
