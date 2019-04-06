@@ -32,6 +32,7 @@ function showTemples(jsonObj) {
         var myPara9 = document.createElement('p');
         var myPara10 = document.createElement('p');
         var mySpan = document.createElement('span');
+        var mySpan1 = document.createElement('span');
         var myList = document.createElement('ul');
         var myList1 = document.createElement('ul');
 
@@ -69,7 +70,10 @@ function showTemples(jsonObj) {
 
         mySpan.setAttribute('id',"weather" + templePlaces[i].city );
 
+        mySpan1.textContent = " F";
+        myPara10.textContent = 'Weather:';
         myPara10.append(mySpan);
+        myPara10.append(mySpan1);
 
         myDiv.appendChild(myH2);
         myDiv.appendChild(myPara1);

@@ -248,3 +248,37 @@ footer {
 	color: #a59f93;
 }
 
+/* Temple Page Layout*/
+
+
+.jsonSection {
+
+	display: flex;
+  flex-wrap: nowrap;
+  max-width: 95%;
+  margin: 1rem auto;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+	background: #fafafa;
+	justify-items: center;
+
+}
+
+.jsonSection div {
+
+	margin: 15px;
+	text-align: center;
+	
+  width: 98%;
+  color: black;
+	text-decoration-style: none;
+	
+
+}
+
+.jsonSection li {
+
+	list-style: none;
+	
+	
+}
