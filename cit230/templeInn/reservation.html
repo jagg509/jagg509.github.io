@@ -17,20 +17,142 @@
 
 
     <header>
-        <a href="index.html"><img src="images/icon.jpg" alt="The logo" height="60"></a>
+        <a href="homeTempleInn.html"><img src="images/icon.jpg" alt="The logo" height="60"></a>
 
     </header>
 
     <nav class="menu">
         <ul class="navigation" id="directory">
             <li><a href="#" class="page" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="index.html" class="page">Home</a></li>
+            <li><a href="homeTempleInn.html" class="page">Home</a></li>
             <li><a href="templesPage.html" class="page">Temple</a></li>
             <li><a href="reservation.html" class="page active">Reservation</a></li>
             <li><a href="services.html" class="page">Services</a></li>
             <li><a href="contactus.html" class="page">Contact us</a></li>
         </ul>
     </nav>
+
+
+    <div class="reservation-title">
+
+        <h2>Reservations</h2>
+
+        <p>The best hotel you can find close to the temple.
+            Rooms with Breakfast, WiFi, Exercise Workout room.
+            Get closer to the temple with one click
+        </p>
+
+        <img src="images/reservation.jpg" alt="">
+
+    </div>
+
+
+    <main>
+
+        <form action="completeReservation.html" method="GET" id="reservation-form">
+
+            <div class="reservation-container">
+
+                <b>Hotel Location</b>
+                <select name="locations" form="reservation-form">
+                    <option value="" disabled selected>Select Region</option>
+                    <option value="Provo">Provo City Center Temple</option>
+                    <option value="Hartford">Hartford Connecticut Temple</option>
+                    <option value="Kansas">Kansas City Missouri Temple</option>
+                    <option value="Cedar">Cedar City Utah Temple</option>
+                    <option value="Manti">Manti Utah Temple</option>
+                    <option value="Mesa">Mesa Arizona Temple</option>
+                    <option value="Monticello">Monticello Utah Temple</option>
+                    <option value="Oklahoma">Oklahoma City Oklahoma Temple</option>
+                    <option value="Palmyra">Palmyra New York Temple</option>
+                    <option value="California">San Diego California Temple</option>
+
+                </select>
+
+                <label><b>Select your dates</b></label>
+                <input type="date" name="reservation-form">
+
+
+                <label><b>Available Rooms</b></label>
+                <input list="rooms" name="roomtype">
+
+                <datalist id="rooms">
+                    <option value="DOUBLE BEDS ROOM">
+                    <option value="QUEEN MOBILITY ACCESSIBLE W/ ROLL IN SHOWER">
+                    <option value="KING BED JUNIOR SUITE">
+                    <option value="KING BED MASTER SUITE">
+
+                </datalist>
+
+
+                <label><b># of Rooms</b></label>
+                <input type="number" placeholder="Number or Rooms" name="nroom">
+
+
+                <label><b>Full Name</b></label>
+                <input type="text" placeholder="Enter your full name" pattern="[A-Za-z ]{4,}" name="name" required>
+
+
+                <label><b>Email</b></label>
+                <input type="email" placeholder="weather@email.com" name="email">
+
+                <label><b>Phone Number</b></label>
+                <input type="tel" placeholder="123 456 789" name="telephone" required>
+
+
+                <label><b>State</b></label>
+                <input list="state" name="statesel">
+
+                <datalist id="state">
+                    <option value="Alabama">
+                    <option value="Alaska">
+                    <option value="Arizona">
+                    <option value="Utah">
+                    <option value="California">
+                    <option value="Kansas">
+                    <option value="Connecticut">
+                    <option value="Florida">
+                    <option value="Hawaii">
+                    <option value="Georgia">
+
+                </datalist>
+
+
+                <b>Special accommodations/Comments </b>
+                <textarea id="comments" rows="4" cols="50" name="comment" form="reservation-form"></textarea>
+
+
+                <div id="tandcs">
+                    <b>I agree to the following privacy terms and general conditions.</b>
+                    <br>
+                    <input type="radio" name="dangerlevel" value="Yes"> Yes<br>
+                </div>
+
+
+
+
+                <button type="submit" class="submitbtn">Confirm</button>
+
+
+
+
+
+
+            </div>
+
+
+
+
+        </form>
+
+
+
+    </main>
+
+
+
+
+
 
 
 
