@@ -84,14 +84,17 @@ header {
 
 }
 
-.imageReservation .button, .submitcontact {
+.imageReservation .button,
+ .submitcontact, 
+ .container3 .button, 
+ .container4 .button
+ {
 
 	font-family: 'Bree Serif', serif;
 	color: white;
 	background: #a59f93;
 	text-align: center;
 	border: #a59f93;
-
 	  text-decoration: none;
 	  padding: 15px 30px;
 }
@@ -347,7 +350,9 @@ footer {
 }
 
 .temple-page-index .button-tindex,
-.submitbtn  {
+.submitbtn,
+.button-wedding,
+.button-suites {
 
 	font-family: 'Bree Serif', serif;
 	color: white;
@@ -391,6 +396,11 @@ footer {
 	letter-spacing: 5px;
 }
 
+.reservation-title img {
+
+	width: 95%;
+
+}
 .reservation-title h2{
 
 	color: black;
@@ -441,7 +451,8 @@ input[list="topics"]{
 	/*Confirmation Site*/  
 
 	
-  .reservationdone {
+	.reservationdone,
+	.contactdone {
     z-index: 10;
   position: absolute;
   left: 50%;
@@ -482,5 +493,162 @@ input[list="topics"]{
 	font-family: 'Bree Serif', serif;
 	letter-spacing: 5px;
 	text-transform: uppercase;
+
+}
+
+.footer-home iframe{
+
+	width: 97%;
+
+}
+
+
+
+	/*Services Site*/ 
+
+
+	.container1, .container2 {
+
+	
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		padding: 5px;
+		width: 100%;
+		font-family: 'Bree Serif', serif;
+		color: #a59f93;
+		text-transform: uppercase;
+
+	}
+
+	.container1 img, .container2 img {
+		 
+		width: 97%;
+
+	}
+
+	.container1 div:nth-child(1), 
+	.container2 div:nth-child(1){
+
+		padding-right: 15px;
+
+	}
+
+	.services-banner{
+
+		font-family: 'Bree Serif', serif;
+		color: #a59f93;
+		text-transform: uppercase;
+		letter-spacing: 12px;
+		text-align: center;
+
+	}
+
+
+.container3 {
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/templeInn/images/marriage.jpg");
+	margin: auto;
+	margin-bottom: 30px;
+ 
+}
+
+.container4 {
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://jagg509.github.io/cit230/templeInn/images/bed2.jpg");
+	margin: auto;
+
+}
+
+.container3, .container4 {
+
+	width: 100%;	
+	
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+	height: 500px;
+	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
+	color: white;
+	font-stretch: 100%;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+/*Weeding Page*/
+
+.wedding-container, 
+.wedding-container1, 
+.wedding-container2,
+.suites-container,
+.suites-container1,
+.suites-container2{
+
+width: 80%;
+margin: auto;	
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding-right: 15px;
+padding-left: 15px;
+	font-family: 'Bree Serif', serif;
+		color: #a59f93;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		text-align: center;
+}
+
+
+
+
+
+@media (max-width: 60em) {
+
+
+	.wedding-container, 
+.wedding-container1, 
+.wedding-container2,
+.suites-container,
+.suites-container1,
+.suites-container2{
+
+	flex-wrap: wrap;
+	flex-direction: column;
+
+
+}
+
+	.wedding-container img, 
+.wedding-container1 img, 
+.wedding-container2 img,
+.suites-container img,
+.suites-container1 img,
+.suites-container2 img {
+
+ width: 100%;
+
+}
+
+
+.wedding-container2 div:nth-child(1),
+.suites-container2 div:nth-child(2){
+
+margin-bottom: 30px;
+
+	}
+
+
 
 }
